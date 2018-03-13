@@ -38,6 +38,11 @@
         </activity>
         <activity android:name=".ui.Category_Details_List_Activity" />
         <activity android:name=".ui.Provider_Deatil_Actvity"></activity>
+        <activity android:name=".ui.Login_Activity" />
+        <activity android:name=".ui.UserTreatement_Calander" />
+        <activity android:name=".ui.User_profile_Activity"></activity>
+        <activity android:name=".ui.Signup_Activity" />
+
     </application>
 
 </manifest>
