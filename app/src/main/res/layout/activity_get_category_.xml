@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.GetCategory_Activity">
+
+        <TextView
+            android:id="@+id/app_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="@dimen/textSizeVeryLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/selectCategory_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="5dp"
+            android:layout_above="@+id/category_rv"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Please Select Your Category."
+            android:textSize="@dimen/textSizeVeryLarge" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/category_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</layout>

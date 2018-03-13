@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Category_Details_List_Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:id="@+id/lnr_appNames"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:id="@+id/img_wishList"
+        android:src="@android:drawable/btn_star_big_on"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/textSizeLarge"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lnr_appNames"
+        android:weightSum="3"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/border_black_not_rounded"
+        android:id="@+id/lnr_selectedValues"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Hair"
+            android:id="@+id/categorySelected_tv"
+
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Today"
+            android:id="@+id/selectedDate_tv"
+
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="PinCode"
+            android:id="@+id/zipCode_tv"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/provider_rv"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/lnr_selectedValues"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
