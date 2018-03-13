@@ -26,6 +26,7 @@ public class GetCategory_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_get_category_);
         mContext = this;
         addValuesToCategoryList();
+        System.out.println("Githubbbbb chck");
         initializeValues();
         // binding = DataBindingUtil.setContentView(this, R.layout.fragment_purchase_list);
 
