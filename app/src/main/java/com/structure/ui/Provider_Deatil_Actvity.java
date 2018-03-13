@@ -35,6 +35,7 @@ private LinearLayout mLnr_ViewPagerCountDots;
         mContext = this;
         addValuesToList();
         initializeValues();
+        System.out.println("Githubbbbb chck");
         buildCircles();
         setUiPageViewController(5);
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
