@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Glow Coinerge</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="contactno">Contact No</string>
+    <string name="password">Password</string>
+    <string name="new_user_register_here">New User? Register here</string>
+
+    <!--<string name="Forgot_Password"><u>Forgot Password?</u>.-->
 </resources>

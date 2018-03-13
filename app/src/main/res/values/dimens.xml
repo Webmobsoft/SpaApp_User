@@ -16,4 +16,9 @@
     <dimen name="margin_5">5dp</dimen>
     <dimen name="margin_20">20dp</dimen>
     <dimen name="margin_40">40dp</dimen>
+
+    <dimen name="margin_rel_top">25dp</dimen>
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="magin_40">40dp</dimen>
+    <dimen name="margin_30">40dp</dimen>
 </resources>
